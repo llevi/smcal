@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+import sys
+from smcal.terminal import TerminalPrompt
+import smcal
+
+if len(sys.argv) > 1:
+    print(smcal.calc.calc(" ".join(sys.argv[1:])))
+else:
+    TerminalPrompt().cmdloop()
