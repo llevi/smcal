@@ -1,8 +1,8 @@
 # Smart Calculator - A Command-Line calculator with unit conversion support
 
-multiple operations supported at one statement
-Unit conversion works with keywords
-Only 2 keywords can be passed in a statement and needs to be in the same module
+- Multiple operations supported at one statement
+- Unit conversion works with keywords
+- Only 2 keywords can be passed in a statement and needs to be in the same module
 
 ## Currently supported unit types:
 - length
